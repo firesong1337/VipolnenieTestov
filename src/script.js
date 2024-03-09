@@ -1,7 +1,7 @@
 import './styles/_style.scss';
-import TestsModel from './model.js';
+import TestsModel from './model/model.js';
 import TestsView from './view/view.js';
-import TestsController from './controller.js';
+import TestsController from './controller/controller.js';
 
 const model = new TestsModel();
 const view = new TestsView();

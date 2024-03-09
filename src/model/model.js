@@ -1,4 +1,4 @@
-import testsData from './data/TestsData.json';
+import testsData from '../data/TestsData.json';
 
 class TestsModel {
     constructor() {
