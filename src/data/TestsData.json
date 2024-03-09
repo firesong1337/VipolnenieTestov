@@ -1,0 +1,133 @@
+[
+    {
+        "testId": 0,
+        "testName": "JS Basics",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "timeForTest": 180,
+        "questions": [
+            {
+                "questionId": 0,
+                "question": "What is the result of 2 + 2?",
+                "answers": [
+                    {
+                        "answerId": 0,
+                        "answer":"3",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerId": 1,
+                        "answer":"4",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerId": 2,
+                        "answer":"5",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerId": 3,
+                        "answer":"Neither one",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerId": 4,
+                        "answer":"I dont know",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionId": 1,
+                "question": "Which keyword is used to declare a variable in JavaScript?",
+                "answers": [
+                    {
+                        "answerId" : 0,
+                        "answer": "var",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerId" : 1,
+                        "answer": "for",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerId" : 2,
+                        "answer": "if",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionId": 2,
+                "question": "Which keyword is used to declare a variable in JavaScript?",
+                "answers": [
+                    {
+                        "answerId" : 0,
+                        "answer": "foreach",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerId" : 1,
+                        "answer": "let",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerId" : 2,
+                        "answer": "for",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "testId": 1,
+        "testName": "Python Basics",
+        "description": "Faucibus a pellentesque sit amet porttitor eget. Elit ut aliquam purus sit amet luctus venenatis lectus. Ut faucibus pulvinar elementum integer enim neque volutpat. Ultrices tincidunt arcu non sodales. Consectetur adipiscing elit duis tristique sollicitudin nibh sit. Sed nisi lacus sed viverra tellus in hac habitasse platea. Diam ut venenatis tellus in metus. Pharetra pharetra massa massa ultricies. At consectetur lorem donec massa sapien faucibus. Metus dictum at tempor commodo ullamcorper a lacus vestibulum sed. Velit egestas dui id ornare. Turpis egestas maecenas pharetra convallis posuere. Ut tortor pretium viverra suspendisse potenti nullam ac tortor. Nisl nunc mi ipsum faucibus vitae aliquet.",
+        "timeForTest": 60,
+        "questions": [
+            {
+                "questionId": 0,
+                "question": "What is the output of 'Hello ' + 'World' in Python?",
+                "answers": [
+                    {
+                        "answerId" : 0,
+                        "answer": "Hello World",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerId" : 1,
+                        "answer": "HelloWorld",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerId" : 2,
+                        "answer": "WorldHello",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionId": 1,
+                "question": "Which data type is mutable in Python?",
+                "answers": [
+                    {
+                        "answerId" : 0,
+                        "answer": "int",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerId" : 1,
+                        "answer": "str",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerId" : 2,
+                        "answer": "list",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
+]

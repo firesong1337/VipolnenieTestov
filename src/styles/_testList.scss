@@ -1,0 +1,67 @@
+aside {
+    background-color: $aside-bg;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.test-aside-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    width: 100%;
+    gap: 16px;
+    border-bottom: 1px solid #CFD8DC;
+}
+.test-aside-collapse {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width:50px;
+}
+.test-aside-collapse:hover {
+    background-color: #CFD8DC;
+}
+
+.test-aside-desc {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    width:50px;
+    height: 20px;
+}
+.tests-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px;
+    margin-top: 16px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+}
+.test-list-item {
+    list-style-position: inside;
+    width:100%;
+    height: 22px;
+    padding: 8px;
+    border-radius: 3px;
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+li::before {
+    content: "\2022"; 
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.test-list-item:hover {
+    border: 1px solid $accent-color;
+    background-color: $accent-color;
+    color: $aside-item-text;
+}

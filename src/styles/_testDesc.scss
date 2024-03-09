@@ -1,0 +1,25 @@
+.desc-btn-ctn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+}
+.btn-test-start, .btn-test-cancel {
+    width: 82px;
+    margin: 18px 0;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.btn-test-start {
+    background-color: $accent-color;
+    color: white;
+}
+.btn-test-cancel {
+    background-color: transparent;
+    -webkit-box-shadow:inset 0px 0px 0px 1px $gray-border;
+    -moz-box-shadow:inset 0px 0px 0px 1px $gray-border;
+    box-shadow:inset 0px 0px 0px 1px $gray-border;
+    color: $gray-text;
+}
